@@ -1,0 +1,21 @@
+{
+    "email": "mqtestemail01@gmail.com",
+    "password": "Testemail12345!",
+    "basicinfo_first_name": "Michelle",
+    "basicinfo_middle_name": "Nog",
+    "basicinfo_last_name": "Queuez",
+    "basicinfo_area_code": "+63",
+    "basicinfo_phone_number": "9911111111",
+    "basicinfo_country": "Philippines",
+    "basicinfo_street_adr": "Barangay Sta. Rosario",
+    "basicinfo_city_state": "Pasig City , National Capital Region",
+    "basicinfo_city": "Pasig City",
+    "basicinfo_postal_code": "1603",
+    "basicinfo_timezone": "Asia/Manila",
+    "languages_primary": "English (Philippines)",
+    "languages_prof_lvl": "Native or bilingual proficiency",
+    "other_languages_secondary": "Filipino (Philippines)",
+    "other_languages_secondary_prof_lvl": "Professional working proficiency",
+    "other_languages_tertiary": "English (United Kingdom)",
+    "other_languages_tertiary_prof_lvl": "Limited working proficiency"
+}

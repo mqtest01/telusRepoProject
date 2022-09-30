@@ -1,0 +1,18 @@
+{
+    "email": "mqtestemail01@gmail.com",
+    "password": "Testemail12345!",
+    "invalid_info_first_name": "Michelle@!",
+    "invalid_info_middle_name": "Nog%$",
+    "invalid_info_last_name": "Querquez@$",
+    "invalid_info_area_code": "qwe@!#",
+    "invalid_info_phone_number_alphanum": "9911111111ss#@",
+    "invalid_info_phone_number_greater_range": "9911111111111111",
+    "invalid_info_country": "Philip@#^3!35",
+    "invalid_info_street_adr": "Barangay Sta. Lucia",
+    "invalid_info_city_state": "Quezon@!#$",
+    "invalid_info_postal_code": "1603@21",
+    "invalid_languages_lang": "@3du4^`-",
+    "invalid_languages_prof_lvl": "Native or bilingual proficiency",
+    "invalid_other_languages_lang": "@3du4^`-",
+    "invalid_other_languages_prof_lvl": "@3du4^`-"
+}

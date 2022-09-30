@@ -1,0 +1,11 @@
+{
+    "invalid_email_credentials": "The email or password you entered is incorrect. Please try again.",
+    "blank_email": "email is required",
+    "blank_password": "password is required",
+    "invalid_first_name": "First Name must not contain invalid characters",
+    "invalid_middle_name": "Middle Name must not contain invalid characters",
+    "invalid_last_name": "Last Name must not contain invalid characters",
+    "invalid_phone_format": "Invalid phone number format",
+    "invalid_city_state": "City, State is reqiured",
+    "invalid_postal_code": "Invalid postal code"
+}
