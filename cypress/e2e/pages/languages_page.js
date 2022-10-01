@@ -3,7 +3,9 @@ export class LanguagesPage{
     //Object locators
     primary_edit_btn = '.col-auto > .row'
     secondary_edit_btn = ':nth-child(1) > :nth-child(1) > :nth-child(2) > .col-lg-12 > .wrapper-update-section > .edit-div'
-    secondary_delete_btn = ':nth-child(1) > :nth-child(1) > :nth-child(2) > .col-lg-12 > .wrapper-update-section > .trash-div > .svg-inline--fa > path'
+    multientry_delete_btn = ':nth-child(1) > :nth-child(1) > :nth-child(2) > .col-lg-12 > .wrapper-update-section > .trash-div > .svg-inline--fa > path'
+    singleentry_delete_btn = 'svg[data-icon="tash-alt"]'
+    // singleentry_delete_btn = '.trash-div'
     //:nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value')
     //primary_language_txt = ':nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value'
     primary_language_txt = ':nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value'
@@ -16,6 +18,8 @@ export class LanguagesPage{
     tertiary_language_txt = ':nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container'
     tertiary_prof_level = '.figma-input-field-margin > .sc-dlnjwi > .row > .col-lg-12'
     language_remove_focus_label = 'Other languages'
+    dialog_no_button = '.sui-c-btn-secondary'
+    dialog_yes_button = '.sui-gap-2 > .sui-c-btn-primary'
     
     
     //methods
@@ -112,7 +116,7 @@ export class LanguagesPage{
          .click(3000)
     }
 
-    clickOnLanguageButton(buttonname){
+    clickOnLanguageBtn(buttonname){
         cy.contains(buttonname)
          .click()
     }
@@ -120,6 +124,36 @@ export class LanguagesPage{
     clickOnSecondaryEditBtn(){
         cy.get(this.secondary_edit_btn)
          .click(3000)
+    }
+
+    clickOnDeleteBtn(){
+        cy.get(this.multientry_delete_btn)
+        //  .click({multiple:true})
+         .click({force:true})
+    }
+
+    // clickOnDeleteBtnWitSingleEntry(){
+    //     cy.get(this.singleentry_delete_btn)
+    //      .click({force:true})
+    // }
+
+    checkDeleteConfirmMessage(message){
+        cy.contains(message)
+    }
+
+    clickOnDialogNoBtn(){
+        cy.get(this.dialog_no_button)
+         .click()
+    }
+
+    clickOnDialogYesBtn(){
+        cy.get(this.dialog_yes_button)
+         .click(3000)
+    }
+
+    checkLabelNotAvailable(labelname){
+        cy.contains(labelname)
+         .should('not.exist')
     }
 
 

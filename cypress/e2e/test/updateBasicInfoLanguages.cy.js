@@ -16,7 +16,7 @@ describe('Check basic information and language pages can be updated', function()
     cy.visit('cmp/')
   })
 
-  it.skip('Check if User is able to succesfully update basic information and language pages using valid inputs', function(){
+  it('Check if User is able to succesfully update basic information and language pages using valid inputs', function(){
 
     //access test data
     cy.fixture('valid_test_data').then((validData) => {
@@ -132,7 +132,7 @@ describe('Check basic information and language pages can be updated', function()
     }) 
   })
 
-  it.only('Check if User is not able to update the basic information and language pages by providing invalid inputs', function(){
+  it('Check if User is not able to update the basic information and language pages by providing invalid inputs', function(){
     
     // Access the test data
     cy.fixture('invalid_test_data').then((invalidData) => {
@@ -244,7 +244,6 @@ describe('Check basic information and language pages can be updated', function()
         languagesPage.checkPrimaryLanguageSummary(validData.languages_primary, validData.languages_prof_lvl)
       })
       
-      
       // //Update other languages
       languagesPage.clickOnSecondaryEditBtn()
       languagesPage.updateSecondaryLanguage(invalidData.other_languages_secondary)
@@ -269,7 +268,62 @@ describe('Check basic information and language pages can be updated', function()
     }) 
   })
   
-  it('Check if the user can delete entries from the other languages', function(){})
+  it('Check if the user can delete entries from the other languages', function(){
+    
+    //access test data
+    cy.fixture('valid_test_data').then((validData) => {
+
+      //Login using valid credentials
+      loginPage.enterEmailAddress(validData.email)
+      loginPage.clickContinue()
+      loginPage.enterPassword(validData.password)
+      loginPage.clickSignIn()
+
+      //Click profile icon and My profile link
+      dashboardPage.clickProfileIcon()
+      dashboardPage.clickMyProfileLink()
+      dashboardPage.clickProfileIcon() // need to remove the popup so that the script can continue
+
+      //Update languages
+      basicInformationPage.clickOnLanguagesLink()
+      languagesPage.clickOnLabel("Primary language")
+
+      //Check dialog box information
+      languagesPage.clickOnDeleteBtn()
+      languagesPage.checkDeleteConfirmMessage("Delete data")
+      languagesPage.checkDeleteConfirmMessage("Are you sure you want to delete this information?")
+      languagesPage.clickOnDialogNoBtn()
+
+      //Delete the first entry
+      languagesPage.clickOnDeleteBtn()
+      languagesPage.clickOnDialogYesBtn()
+      cy.wait(3000)
+
+
+      //Check dialog box information
+      languagesPage.clickOnDeleteBtn()
+      languagesPage.checkDeleteConfirmMessage("Delete data")
+      languagesPage.checkDeleteConfirmMessage("Are you sure you want to delete this information?")
+      languagesPage.clickOnDialogNoBtn()
+
+      //Delete the second entry
+      languagesPage.clickOnDeleteBtn()
+      languagesPage.clickOnDialogYesBtn()
+
+      //Other languages summary
+      languagesPage.checkLabelNotAvailable(validData.other_languages_secondary)
+      languagesPage.checkLabelNotAvailable(validData.other_languages_secondary_prof_lvl)
+      languagesPage.checkLabelNotAvailable(validData.other_languages_tertiary)
+      languagesPage.checkLabelNotAvailable(validData.other_languages_tertiary_prof_lvl)
+
+      //Sign out
+      dashboardPage.clickSignOut()
+
+    }) 
+
+
+
+  })
   it('Check if User can update the same fields multiple times using valid inputs.', function(){})
 
 
