@@ -73,6 +73,8 @@ describe('Check basic information and language pages can be updated', function()
       basicInformationPage.removeLocationFocusByClickingLabel()
       basicInformationPage.updateCityState(validData.basicinfo_city, validData.basicinfo_city_state)
       basicInformationPage.removeLocationFocusByClickingLabel()
+      cy.wait(3000)
+      basicInformationPage.removeLocationFocusByClickingLabel()
       basicInformationPage.updatePostalCode(validData.basicinfo_postal_code)
       basicInformationPage.removeLocationFocusByClickingLabel()
 
@@ -99,8 +101,9 @@ describe('Check basic information and language pages can be updated', function()
       //Update Primary language
       languagesPage.clickPrimaryEditBtn()
       languagesPage.updatePrimaryLanguage(validData.languages_primary)
-      languagesPage.checkPrimaryProfLevel(validData.languages_prof_lvl)
-      languagesPage.clickPrimarySaveBtn()
+      languagesPage.checkLabel(validData.languages_prof_lvl)
+      languagesPage.clickOnLanguageBtn("Save")
+      // languagesPage.clickPrimarySaveBtn()
 
       // Primary language summary
       languagesPage.checkPrimaryLanguageSummary(validData.languages_primary, validData.languages_prof_lvl)
@@ -127,7 +130,7 @@ describe('Check basic information and language pages can be updated', function()
       dashboardPage.clickSignOut()
 
       //landed on the login page
-      dashboardPage.checkLandingPage('https://prelive.telusinternational.ai/cmp/login')
+      dashboardPage.checkLandingPage('https://www.telusinternational.ai/cmp/login')
     
     }) 
   })
@@ -237,7 +240,7 @@ describe('Check basic information and language pages can be updated', function()
       languagesPage.updatePrimaryLanguage(invalidData.languages_primary)
       languagesPage.clickOnLabel("Primary language")
       basicInformationPage.checkErrorMessageNotVisible('Language ' + errorMessage.err_special_name)
-      languagesPage.clickOnLanguageButton("Cancel")
+      languagesPage.clickOnLanguageBtn("Cancel")
 
       // Primary language summary
       cy.fixture('valid_test_data').then((validData) => {
@@ -249,7 +252,7 @@ describe('Check basic information and language pages can be updated', function()
       languagesPage.updateSecondaryLanguage(invalidData.other_languages_secondary)
       basicInformationPage.checkErrorMessageNotVisible('Language ' + errorMessage.err_special_name)
       languagesPage.updateSecondaryProfiencyLevel(invalidData.other_languages_secondary_prof_lvl)
-      languagesPage.clickOnLanguageButton("Cancel")
+      languagesPage.clickOnLanguageBtn("Cancel")
 
       //Other languages summary
       cy.fixture('valid_test_data').then((validData) =>{
@@ -324,7 +327,104 @@ describe('Check basic information and language pages can be updated', function()
 
 
   })
-  it('Check if User can update the same fields multiple times using valid inputs.', function(){})
 
+  it('Check if User can update the same fields multiple times using valid inputs.', function(){
+    
+    //access test data
+    cy.fixture('original_test_data').then((origData) => {
+
+      //Login using valid credentials
+      loginPage.enterEmailAddress(origData.email)
+      loginPage.clickContinue()
+      loginPage.enterPassword(origData.password)
+      loginPage.clickSignIn()
+
+      //landed on the dashboard page
+      dashboardPage.checkLandingPage('https://www.telusinternational.ai/cmp/contributor/dashboard')
+
+      //Click profile icon and My profile link
+      dashboardPage.clickProfileIcon()
+      dashboardPage.clickMyProfileLink()
+      dashboardPage.clickProfileIcon() // need to remove the popup so that the script can continue
+
+      //landed on the basic info page
+      dashboardPage.checkLandingPage('https://www.telusinternational.ai/cmp/contributor/userprofile/basic-info')
+
+      //Update Contact Information
+      basicInformationPage.clickContactEditBtn()
+      cy.wait(3000)
+      basicInformationPage.updateFirstName(origData.basicinfo_first_name)
+      basicInformationPage.removeContactFocusByClickingLabel()
+      basicInformationPage.updateMiddleName(origData.basicinfo_middle_name)
+      basicInformationPage.removeContactFocusByClickingLabel()
+      basicInformationPage.updateLastName(origData.basicinfo_last_name)
+      basicInformationPage.removeContactFocusByClickingLabel()
+      basicInformationPage.updateAreaCode(origData.basicinfo_area_code)
+      basicInformationPage.removeContactFocusByClickingLabel()
+      basicInformationPage.updatePhoneNumber(origData.basicinfo_phone_number)
+      basicInformationPage.removeContactFocusByClickingLabel()
+
+      //check if email contains user email and disabled by default
+      basicInformationPage.checkEmailIfDisabled(origData.email)
+
+      //save changes
+      basicInformationPage.clickContactSaveBtn()
+
+      //Check Contact Info Summary
+      const fullName = `${origData.basicinfo_first_name} ${origData.basicinfo_middle_name} ${origData.basicinfo_last_name}`
+      const fullPhoneNumber = `${origData.basicinfo_area_code}${origData.basicinfo_phone_number}`
+
+      basicInformationPage.checkContactSummaryInfo(fullName, origData.email, fullPhoneNumber)
+
+      //update Location
+      basicInformationPage.clickLocEditBtn()
+      cy.wait(3000)
+      basicInformationPage.updateCountry(origData.basicinfo_country)
+      basicInformationPage.removeLocationFocusByClickingLabel()
+      basicInformationPage.updateStreetAdress(origData.basicinfo_street_adr)
+      basicInformationPage.removeLocationFocusByClickingLabel()
+      basicInformationPage.updateCityState(origData.basicinfo_city, origData.basicinfo_city_state)
+      basicInformationPage.removeLocationFocusByClickingLabel()
+      basicInformationPage.updatePostalCode(origData.basicinfo_postal_code)
+      basicInformationPage.removeLocationFocusByClickingLabel()
+
+      //save changes
+      basicInformationPage.clickLocationSaveBtn()
+
+      //check if success pop-up has shown
+      basicInformationPage.checkSuccessfulPopup
+
+      //check location summary
+      basicInformationPage.checkLocationSummaryInfo(origData.basicinfo_street_adr, 
+        origData.basicinfo_summary_city_state, origData.basicinfo_postal_code,
+        origData.basicinfo_country, origData.basicinfo_timezone)
+
+      //Special note: A bug was found the city state format is not the same from the selected one versus the one that is shown in the Location summary.
+      
+
+      //Update languages
+      basicInformationPage.clickOnLanguagesLink()
+
+      //landed on the languages page
+      dashboardPage.checkLandingPage('https://www.telusinternational.ai/cmp/contributor/userprofile/languages')
+     
+      //Update Primary language
+      languagesPage.clickPrimaryEditBtn()
+      languagesPage.updatePrimaryLanguage(origData.languages_primary)
+      languagesPage.checkLabel(origData.languages_prof_lvl)
+      //languagesPage.clickPrimarySaveBtn()
+      languagesPage.clickOnLanguageBtn("Save")
+
+      // Primary language summary
+      languagesPage.checkPrimaryLanguageSummary(origData.languages_primary, origData.languages_prof_lvl)
+
+      //Sign out
+      dashboardPage.clickSignOut()
+
+      // //landed on the login page
+      // dashboardPage.checkLandingPage('https://prelive.telusinternational.ai/cmp/login')
+    }) 
+
+  })
 
 })

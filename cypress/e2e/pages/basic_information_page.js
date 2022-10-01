@@ -191,7 +191,7 @@ export class BasicInformationPage {
     clickLocationSaveBtn(){
         cy.contains(this.location_save_btn)
          .should('be.visible')
-         .click(8000)
+         .click(20000)
     }
 
     checkLocationSummaryInfo(address, citystate, postalcode, country, timezone){

@@ -1,0 +1,18 @@
+{
+    "email": "mqtestemail01@gmail.com",
+    "password": "Testemail123456!",
+    "basicinfo_first_name": "Michael",
+    "basicinfo_middle_name": "Nogales",
+    "basicinfo_last_name": "Querquez",
+    "basicinfo_area_code": "+63",
+    "basicinfo_phone_number": "9988888888",
+    "basicinfo_country": "Philippines",
+    "basicinfo_street_adr": "Barangay Rosario ",
+    "basicinfo_city_state": "Pasig City, National Capital Region",
+    "basicinfo_city": "Pasig City",
+    "basicinfo_summary_city_state": "Pasig City , National Capital Region",
+    "basicinfo_postal_code": "1609",
+    "basicinfo_timezone": "Asia/Manila",
+    "languages_primary": "Filipino (Philippines)",
+    "languages_prof_lvl": "Native or bilingual proficiency"
+}

@@ -9,7 +9,7 @@ export class LanguagesPage{
     //:nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value')
     //primary_language_txt = ':nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value'
     primary_language_txt = ':nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value'
-    primart_prof_level = '.figma-input-field-margin > .sc-dlnjwi > .row > .col-lg-12'
+    primary_prof_level = '.figma-input-field-margin > .sc-dlnjwi > .row > .col-lg-12'
     primary_language_save_btn = 'Save'
     other_language_add_btn = 'Add'
     other_language_save_btn = 'Save'
@@ -35,19 +35,20 @@ export class LanguagesPage{
          .click()
          .type(primary+'{enter}')
         //  .type('{enter}')
+        cy.wait(3000)
 
     }
 
-    checkPrimaryProfLevel(){
-        cy.get(primart_prof_level)
-         .should('be.disabled')
-    }
+    // checkPrimaryProfLevel(){
+    //     cy.('input[name="react-select-5-input"]')
+    //      .should('have.attr', 'disabled')
+    // }
 
     clickPrimarySaveBtn(proflevel){
         cy.contains(this.primary_language_save_btn)
          .click()
          .should('be.visible')
-         .should('have.text', c)
+         .should('have.text', proflevel)
     }
 
     checkPrimaryLanguageSummary(primarylanguage, primaryproficiency){
@@ -154,6 +155,11 @@ export class LanguagesPage{
     checkLabelNotAvailable(labelname){
         cy.contains(labelname)
          .should('not.exist')
+    }
+
+    checkLabel(labelname){
+        cy.contains(labelname)
+
     }
 
 
