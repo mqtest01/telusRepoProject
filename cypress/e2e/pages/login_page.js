@@ -9,7 +9,6 @@ export class LoginPage{
     login_invalid_message = 'The email or password you entered is incorrect. Please try again.'
 
     //methods
- 
     enterEmailAddress(emailAddress){
         cy.get(this.login_email_txt)
          .type(emailAddress)
@@ -35,8 +34,29 @@ export class LoginPage{
          .should('be.visible')
     }
 
-    checkCheckMessage(message){
+    checkMessage(message){
         cy.contains(message)
+    }
+
+    completeLogin(emailAddress, password){
+        this.enterEmailAddress(emailAddress)
+        this.clickContinue()
+        this.enterPassword(password)
+        this.clickSignIn()
+    }
+
+    emptyEmail(){
+        cy.get(this.login_email_txt)
+         .clear()
+    }
+
+    emptyPassword(){
+        cy.get(this.login_password_txt)
+         .clear()
+    }
+
+    reloadThePage(){
+        cy.reload()
     }
 
 }

@@ -1,0 +1,6 @@
+{
+    "valid_email": "mqtestemail01@gmail.com",
+    "valid_password": "Testemail123456!",
+    "invalid_email": "sample@gmail.com",
+    "invalid_password": "Test12345!."
+}

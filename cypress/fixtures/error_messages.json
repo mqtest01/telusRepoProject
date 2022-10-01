@@ -1,7 +1,8 @@
 {
+    "invalid_email_try": "Try again",
     "invalid_email_credentials": "The email or password you entered is incorrect. Please try again.",
-    "blank_email": "email is required",
-    "blank_password": "password is required",
+    "blank_email": "Email is required",
+    "blank_password": "Password is required",
     "err_special_name": "must not contain invalid characters",
     "req_first_name": "First name is required",
     "req_last_name": "Last name is required",

@@ -19,5 +19,8 @@
   "homepage": "https://github.com/mqtest01/telusRepoProject#readme",
   "dependencies": {
     "cypress": "^10.9.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
