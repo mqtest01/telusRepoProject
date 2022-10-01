@@ -24,6 +24,9 @@ export class BasicInformationPage {
     location_postal_code_txt = 'input[name="postalCode"]'
     location_remove_focus_label = 'Location'
     location_save_btn = 'Save'
+    success_message1 = 'Success'
+    success_message2 = 'Loation succesfully saved!'
+    success_image = '.Toastify__toast-body > .sui-flex > :nth-child(1)'
     // location_sum_address =':nth-child(1) > .col-auto > .sui-text-b3'
     // location_sum_city_state = ':nth-child(2) > .col-auto > .sui-text-b3'
     // location_sum_postal_Code = '.col-lg-12 > :nth-child(3) > .col-auto > .sui-text-b3'
@@ -120,7 +123,7 @@ export class BasicInformationPage {
 
     updateCountry(country){
         cy.get(this.location_country_txt)
-         .type(country)
+         .type(country+'{enter}')
          .should('be.visible')
     }
 
@@ -133,6 +136,7 @@ export class BasicInformationPage {
 
     updateCityState(city, citystate){
         cy.get(this.location_city_state_txt)
+         .click('bottom')
          .clear()
          .type(city)
          .should('be.visible')      
@@ -140,6 +144,7 @@ export class BasicInformationPage {
         cy.wait(5000)
         cy.contains(citystate)
          .click()
+        // cy.wait(5000)
     }
     
     updatePostalCode(postalcode){
@@ -157,8 +162,8 @@ export class BasicInformationPage {
 
     clickLocationSaveBtn(){
         cy.contains(this.location_save_btn)
-         .click()
          .should('be.visible')
+         .click(8000)
     }
 
     checkLocationSummaryInfo(address, citystate, postalcode, country, timezone){
@@ -169,6 +174,13 @@ export class BasicInformationPage {
         cy.contains(country)
         cy.contains(timezone)
 
+    }
+
+    checkSuccessfulPopup(){
+        cy.contains(success_message1)
+        cy.contains(success_message2)
+        cy.get(success_image)
+         .should('be.visible')
     }
 
     clickOnLanguagesLink(){

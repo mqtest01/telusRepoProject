@@ -27,16 +27,20 @@ describe('Check basic information and language pages can be updated', function()
       loginPage.enterPassword(validData.password)
       loginPage.clickSignIn()
 
-      //landed to the correct page
-      cy.url().should('eq', 'https://www.telusinternational.ai/cmp/contributor/dashboard')
+      //landed on the dashboard page
+      dashboardPage.checkLandingPage('https://www.telusinternational.ai/cmp/contributor/dashboard')
 
       //Click profile icon and My profile link
       dashboardPage.clickProfileIcon()
       dashboardPage.clickMyProfileLink()
       dashboardPage.clickProfileIcon() // need to remove the popup so that the script can continue
 
+      //landed on the basic info page
+      dashboardPage.checkLandingPage('https://www.telusinternational.ai/cmp/contributor/userprofile/basic-info')
+
       //Update Contact Information
       basicInformationPage.clickContactEditBtn()
+      cy.wait(3000)
       basicInformationPage.updateFirstName(validData.basicinfo_first_name)
       basicInformationPage.removeContactFocusByClickingLabel()
       basicInformationPage.updateMiddleName(validData.basicinfo_middle_name)
@@ -62,6 +66,7 @@ describe('Check basic information and language pages can be updated', function()
 
       //update Location
       basicInformationPage.clickLocEditBtn()
+      cy.wait(3000)
       basicInformationPage.updateCountry(validData.basicinfo_country)
       basicInformationPage.removeLocationFocusByClickingLabel()
       basicInformationPage.updateStreetAdress(validData.basicinfo_street_adr)
@@ -74,9 +79,12 @@ describe('Check basic information and language pages can be updated', function()
       //save changes
       basicInformationPage.clickLocationSaveBtn()
 
+      //check if success pop-up has shown
+      basicInformationPage.checkSuccessfulPopup
+
       //check location summary
       basicInformationPage.checkLocationSummaryInfo(validData.basicinfo_street_adr, 
-        validData.basicinfo_city_state, validData.basicinfo_postal_code,
+        validData.basicinfo_summary_city_state, validData.basicinfo_postal_code,
         validData.basicinfo_country, validData.basicinfo_timezone)
 
       //Special note: A bug was found the city state format is not the same from the selected one versus the one that is shown in the Location summary.
@@ -84,7 +92,10 @@ describe('Check basic information and language pages can be updated', function()
 
       //Update languages
       basicInformationPage.clickOnLanguagesLink()
-      
+
+      //landed on the languages page
+      dashboardPage.checkLandingPage('https://www.telusinternational.ai/cmp/contributor/userprofile/languages')
+     
       //Update Primary language
       languagesPage.clickPrimaryEditBtn()
       languagesPage.updatePrimaryLanguage(validData.languages_primary)

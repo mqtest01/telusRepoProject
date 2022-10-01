@@ -27,6 +27,7 @@ export class LanguagesPage{
         cy.get(this.primary_language_txt)
          .click()
          .type(primary+'{enter}')
+        //  .type('{enter}')
 
     }
 
@@ -44,7 +45,7 @@ export class LanguagesPage{
     clickOtherLanguagesAddBtn(){
         cy.contains(this.other_language_add_btn)
          .should('be.visible')
-         .click()
+         .click(3000)
     }
 
     updateSecondaryLanguage(secondary){
@@ -77,8 +78,8 @@ export class LanguagesPage{
 
     clickOtherLanguagesSaveBtn(){
         cy.contains(this.other_language_save_btn)
-         .click()
          .should('be.visible')
+         .click(5000)
     }
 
     removeLanguageFocusByClickingLabel(){
