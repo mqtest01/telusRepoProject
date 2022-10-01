@@ -26,5 +26,6 @@ export class DashboardPage{
     checkLandingPage(landingpage){
         cy.url().should('eq', landingpage)
     }
+    
 
 }

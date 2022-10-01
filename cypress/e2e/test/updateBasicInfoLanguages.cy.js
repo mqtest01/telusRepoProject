@@ -16,12 +16,12 @@ describe('Check basic information and language pages can be updated', function()
     cy.visit('cmp/')
   })
 
-  it('Check if User is able to succesfully update basic information and language pages using valid inputs', function(){
+  it.skip('Check if User is able to succesfully update basic information and language pages using valid inputs', function(){
 
-
-    //Login using valid credentials
+    //access test data
     cy.fixture('valid_test_data').then((validData) => {
 
+      //Login using valid credentials
       loginPage.enterEmailAddress(validData.email)
       loginPage.clickContinue()
       loginPage.enterPassword(validData.password)
@@ -99,6 +99,7 @@ describe('Check basic information and language pages can be updated', function()
       //Update Primary language
       languagesPage.clickPrimaryEditBtn()
       languagesPage.updatePrimaryLanguage(validData.languages_primary)
+      languagesPage.checkPrimaryProfLevel(validData.languages_prof_lvl)
       languagesPage.clickPrimarySaveBtn()
 
       // Primary language summary
@@ -122,28 +123,154 @@ describe('Check basic information and language pages can be updated', function()
         validData.other_languages_secondary_prof_lvl, validData.other_languages_tertiary,
         validData.other_languages_tertiary_prof_lvl)
 
-      //Sig out
+      //Sign out
       dashboardPage.clickSignOut()
+
+      //landed on the login page
+      dashboardPage.checkLandingPage('https://prelive.telusinternational.ai/cmp/login')
     
-
-
-  
-
-      
-
-
-
-
-
-
-    })
-
-    it('Check if User is not able to update the basic information and language pages by providing invalid inputs', function(){})
-    it('Check if the user can delete entries from the other languages', function(){})
-    it('Check if User can update the same fields multiple times using valid inputs.', function(){})
-
-
+    }) 
   })
+
+  it.only('Check if User is not able to update the basic information and language pages by providing invalid inputs', function(){
+    
+    // Access the test data
+    cy.fixture('invalid_test_data').then((invalidData) => {
+
+      //Login using valid credentials
+      loginPage.enterEmailAddress(invalidData.email)
+      loginPage.clickContinue()
+      loginPage.enterPassword(invalidData.password)
+      loginPage.clickSignIn()
+
+      //Click profile icon and My profile link
+      dashboardPage.clickProfileIcon()
+      dashboardPage.clickMyProfileLink()
+      dashboardPage.clickProfileIcon() // need to remove the popup so that the script can continue
+
+      cy.fixture('error_messages').then((errorMessage) => {
+
+         //Click Contact Information
+         basicInformationPage.clickContactEditBtn()
+         cy.wait(3000)
+
+        //update first name with invalid input
+        basicInformationPage.updateFirstName(invalidData.basicinfo_first_name)
+        basicInformationPage.removeContactFocusByClickingLabel()
+        basicInformationPage.checkErrorMessage('First Name ' + errorMessage.err_special_name)
+
+        //update middle name with invalid input
+        basicInformationPage.updateMiddleName(invalidData.basicinfo_middle_name)
+        basicInformationPage.removeContactFocusByClickingLabel()
+        basicInformationPage.checkErrorMessage('Middle Name ' + errorMessage.err_special_name)
+
+        //update last name with invalid input
+        basicInformationPage.updateLastName(invalidData.basicinfo_last_name)
+        basicInformationPage.removeContactFocusByClickingLabel()
+        basicInformationPage.checkErrorMessage('Last Name ' + errorMessage.err_special_name)
+
+        //update phone number with invalid input
+        basicInformationPage.updatePhoneNumber(invalidData.basicinfo_phone_number_alphanum)
+        basicInformationPage.removeContactFocusByClickingLabel()
+        basicInformationPage.checkErrorPhoneMessage(errorMessage.err_phone_format)
+
+        basicInformationPage.updatePhoneNumber(invalidData.basicinfo_phone_number_greater_range)
+        basicInformationPage.removeContactFocusByClickingLabel()
+        basicInformationPage.checkErrorPhoneMessage(errorMessage.err_phone_number)
+
+        //Cancel any changes
+        basicInformationPage.clickContactBtn("Cancel")
+
+        //Check if changes are not saved
+        cy.fixture('valid_test_data').then((validData) =>{
+        
+          //Check Contact Info Summary
+          const fullName = `${validData.basicinfo_first_name} ${validData.basicinfo_middle_name} ${validData.basicinfo_last_name}`
+          const fullPhoneNumber = `${validData.basicinfo_area_code}${validData.basicinfo_phone_number}`
+
+          basicInformationPage.checkContactSummaryInfo(fullName, validData.email, fullPhoneNumber)
+
+        })
+        
+        //update Location
+        basicInformationPage.clickLocEditBtn()
+
+        basicInformationPage.updateCountry(invalidData.basicinfo_country)
+        basicInformationPage.removeLocationFocusByClickingLabel()
+        basicInformationPage.checkErrorMessageNotVisible('Country ' + errorMessage.err_special_name)
+
+        basicInformationPage.updateStreetAdress(invalidData.basicinfo_street_adr)
+        basicInformationPage.removeLocationFocusByClickingLabel()
+        basicInformationPage.checkErrorMessageNotVisible('Country ' + errorMessage.err_special_name)
+
+        basicInformationPage.updateCityOnly(invalidData.basicinfo_city)
+        cy.wait(3000)
+        basicInformationPage.removeLocationFocusByClickingLabel()
+        basicInformationPage.checkErrorMessageWithoutExclamiation(errorMessage.err_city_state)
+
+        //Special Note: City, State doesn't have any exclamation point and not highlighted in Red when invalid entry wa given
+
+        basicInformationPage.updatePostalCode(invalidData.basicinfo_postal_code)
+        basicInformationPage.removeLocationFocusByClickingLabel()
+        basicInformationPage.checkErrorMessage(errorMessage.err_postal_code)
+
+        //Cancel any changes
+        basicInformationPage.clickContactBtn("Cancel")
+
+        //Check if changes are not saved
+        cy.fixture('valid_test_data').then((validData) =>{
+        
+          //Check Contact Info Summary
+          basicInformationPage.checkLocationSummaryInfo(validData.basicinfo_street_adr, 
+            validData.basicinfo_summary_city_state, validData.basicinfo_postal_code,
+            validData.basicinfo_country, validData.basicinfo_timezone)
+
+        })
+
+      //Update languages
+      basicInformationPage.clickOnLanguagesLink()
+      languagesPage.clickOnLabel("Primary language")
+   
+      //Update Primary language
+      cy.wait(3000)
+      languagesPage.clickPrimaryEditBtn()
+      languagesPage.updatePrimaryLanguage(invalidData.languages_primary)
+      languagesPage.clickOnLabel("Primary language")
+      basicInformationPage.checkErrorMessageNotVisible('Language ' + errorMessage.err_special_name)
+      languagesPage.clickOnLanguageButton("Cancel")
+
+      // Primary language summary
+      cy.fixture('valid_test_data').then((validData) => {
+        languagesPage.checkPrimaryLanguageSummary(validData.languages_primary, validData.languages_prof_lvl)
+      })
+      
+      
+      // //Update other languages
+      languagesPage.clickOnSecondaryEditBtn()
+      languagesPage.updateSecondaryLanguage(invalidData.other_languages_secondary)
+      basicInformationPage.checkErrorMessageNotVisible('Language ' + errorMessage.err_special_name)
+      languagesPage.updateSecondaryProfiencyLevel(invalidData.other_languages_secondary_prof_lvl)
+      languagesPage.clickOnLanguageButton("Cancel")
+
+      //Other languages summary
+      cy.fixture('valid_test_data').then((validData) =>{
+        languagesPage.checkOtherLanguageSummary(validData.other_languages_secondary, 
+        validData.other_languages_secondary_prof_lvl, validData.other_languages_tertiary,
+        validData.other_languages_tertiary_prof_lvl)
+      })
+
+      //Sign out
+      dashboardPage.clickSignOut()
+
+        
+      })
+      
+    
+    }) 
+  })
+  
+  it('Check if the user can delete entries from the other languages', function(){})
+  it('Check if User can update the same fields multiple times using valid inputs.', function(){})
 
 
 })

@@ -16,6 +16,9 @@ export class BasicInformationPage {
     // contact_sum_fullname  = '.pb-2 > .col > .sui-text-b3'
     contact_sum_email = '.pb-3 > .col-auto > .sui-text-b3'
     // contact_sum_fullphonenumber = '.mb-7 > .col > .sui-text-b3'
+    exclamation_error = '.sui-flex > .sui-absolute'
+    input_error = '.sui-c-input-error'
+    drpdwn_invalid_entry_error = 'No options'
 
     location_edit_btn = ':nth-child(1) > :nth-child(1) > .col-lg-2 > .sui-rounded'
     location_country_txt = '.sui-c-input-dropdown__value-container'
@@ -27,6 +30,7 @@ export class BasicInformationPage {
     success_message1 = 'Success'
     success_message2 = 'Loation succesfully saved!'
     success_image = '.Toastify__toast-body > .sui-flex > :nth-child(1)'
+
     // location_sum_address =':nth-child(1) > .col-auto > .sui-text-b3'
     // location_sum_city_state = ':nth-child(2) > .col-auto > .sui-text-b3'
     // location_sum_postal_Code = '.col-lg-12 > :nth-child(3) > .col-auto > .sui-text-b3'
@@ -49,6 +53,14 @@ export class BasicInformationPage {
          .clear()
          .type(firstname)
          .should('be.visible')
+    }
+
+    updateFirstNameAndLastWIthBlankValue(firstname){
+        cy.get(this.contact_info_fname_txt)
+         .clear()
+        
+         cy.get(this.contact_info_mname_txt)
+         .clear()
     }
 
     updateMiddleName(middlename){
@@ -84,6 +96,12 @@ export class BasicInformationPage {
          .should('be.visible')
     }
 
+    clickContactBtn(button){
+        cy.contains(button)
+         .click()
+
+    }
+
     removeContactFocusByClickingLabel(){
         cy.contains(this.contact_remove_focus_label)
          .click()
@@ -113,6 +131,7 @@ export class BasicInformationPage {
 
     }
 
+    
     //Location
     clickLocEditBtn(){
         cy.get(this.location_edit_btn)
@@ -145,6 +164,15 @@ export class BasicInformationPage {
         cy.contains(citystate)
          .click()
         // cy.wait(5000)
+    }
+
+    updateCityOnly(city){
+        cy.get(this.location_city_state_txt)
+         .click('bottom')
+         .clear()
+         .type(city)
+         .should('be.visible')      
+
     }
     
     updatePostalCode(postalcode){
@@ -184,7 +212,46 @@ export class BasicInformationPage {
     }
 
     clickOnLanguagesLink(){
-        cy.contains('Languages').click()
+        cy.contains('Languages')
+         .click()
     }
+
+
+    //generic
+    checkErrorMessage(error){
+        cy.contains(error)
+        cy.get(this.input_error)
+         .should('be.visible')
+        cy.get(this.exclamation_error)
+         .should('be.visible')
+    }
+
+
+    checkErrorPhoneMessage(error){
+        cy.contains(error)
+        cy.get(this.input_error)
+         .should('be.visible')
+        // cy.get(this.exclamation_error)
+        //  .should('be.visible')
+    }
+
+    checkErrorMessageNotVisible(error){
+        cy.contains(error)
+         .should('not.exist')
+        cy.get(this.input_error)
+         .should('not.exist')
+        cy.get(this.exclamation_error)
+         .should('not.exist')
+    }
+
+    // checkErrorNoOption(){
+    //     cy.contains(this.drpdwn_invalid_entry_error)
+    //     //  .should('be.visible')
+    // }
+
+    checkErrorMessageWithoutExclamiation(error){
+        cy.contains(error)
+    }
+
 
 }

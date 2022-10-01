@@ -1,18 +1,21 @@
 {
     "email": "mqtestemail01@gmail.com",
-    "password": "Testemail12345!",
-    "first_name": "Michelle@!",
-    "middle_name": "Nog%$",
+    "password": "Testemail123456!",
+    "basicinfo_first_name": "Michelle@!",
+    "basicinfo_middle_name": "Nog%$",
     "basicinfo_last_name": "Querquez@$",
     "basicinfo_area_code": "qwe@!#",
     "basicinfo_phone_number_alphanum": "9911111111ss#@",
     "basicinfo_phone_number_greater_range": "9911111111111111",
     "basicinfo_country": "Philip@#^3!35",
-    "basicinfo_street_adr": "Barangay Sta. Lucia",
+    "basicinfo_street_adr": "Barangay Sta. Lucia@#%!123",
     "basicinfo_city_state": "Quezon@!#$",
+    "basicinfo_city": "Quezon@!#$",
     "basicinfo_postal_code": "1603@21",
-    "languages_lang": "@3du4^`-",
+    "languages_primary": "@3du4^`-",
     "languages_prof_lvl": "Native or bilingual proficiency",
     "other_languages_secondary": "@3du4^`-",
-    "other_languages_secondary_prof_lvl": "@3du4^`-"
+    "other_languages_secondary_prof_lvl": "@3du4^`-",
+    "other_languages_tertiary": "@3du4^`-",
+    "other_languages_tertiary_prof_lvl": "@3du4^`-"
 }

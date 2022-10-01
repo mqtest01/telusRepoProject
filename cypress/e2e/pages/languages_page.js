@@ -2,9 +2,12 @@ export class LanguagesPage{
     
     //Object locators
     primary_edit_btn = '.col-auto > .row'
+    secondary_edit_btn = ':nth-child(1) > :nth-child(1) > :nth-child(2) > .col-lg-12 > .wrapper-update-section > .edit-div'
+    secondary_delete_btn = ':nth-child(1) > :nth-child(1) > :nth-child(2) > .col-lg-12 > .wrapper-update-section > .trash-div > .svg-inline--fa > path'
     //:nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value')
     //primary_language_txt = ':nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value'
     primary_language_txt = ':nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value'
+    primart_prof_level = '.figma-input-field-margin > .sc-dlnjwi > .row > .col-lg-12'
     primary_language_save_btn = 'Save'
     other_language_add_btn = 'Add'
     other_language_save_btn = 'Save'
@@ -31,10 +34,16 @@ export class LanguagesPage{
 
     }
 
-    clickPrimarySaveBtn(){
+    checkPrimaryProfLevel(){
+        cy.get(primart_prof_level)
+         .should('be.disabled')
+    }
+
+    clickPrimarySaveBtn(proflevel){
         cy.contains(this.primary_language_save_btn)
          .click()
          .should('be.visible')
+         .should('have.text', c)
     }
 
     checkPrimaryLanguageSummary(primarylanguage, primaryproficiency){
@@ -50,16 +59,18 @@ export class LanguagesPage{
 
     updateSecondaryLanguage(secondary){
         cy.get(this.secondary_language_txt)
-         .click()
+         .click(3000)
          .type(secondary)
          .type('{enter}')
+        // cy.wait(3000)
     }
 
     updateSecondaryProfiencyLevel(secondaryproflevel){
         cy.get(this.secondary_prof_level)
-         .click()
+         .click(3000)
          .type(secondaryproflevel)
          .type('{enter}')
+        // cy.wait(3000)
     }
 
     updateTertiaryLanguage(tertiary){
@@ -95,6 +106,21 @@ export class LanguagesPage{
         cy.contains(tertiaryproficiency)
     }
 
+    //generic
+    clickOnLabel(labelname){
+        cy.contains(labelname)
+         .click(3000)
+    }
+
+    clickOnLanguageButton(buttonname){
+        cy.contains(buttonname)
+         .click()
+    }
+
+    clickOnSecondaryEditBtn(){
+        cy.get(this.secondary_edit_btn)
+         .click(3000)
+    }
 
 
 }
