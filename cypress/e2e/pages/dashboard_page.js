@@ -21,10 +21,11 @@ export class DashboardPage{
         this.clickProfileIcon()
         cy.contains(this.dashboard_signout)
          .click()
+        cy.wait(3000)
     }
 
     checkLandingPage(landingpage){
-        cy.url().should('eq', landingpage)
+        cy.url().should('eq', landingpage).wait(5000)
     }
     
 

@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/mqtest01/telusRepoProject#readme",
   "dependencies": {
-    "cypress": "^10.9.0"
+    "cypress": "^10.9.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.2",
     "mochawesome": "^7.1.3"
   }
 }

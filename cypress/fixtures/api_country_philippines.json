@@ -1,0 +1,2788 @@
+[
+    {
+        "name": "Adamson University",
+        "alpha_two_code": "PH",
+        "state-province": null,
+        "domains": [
+            "adamson.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.adamson.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Ateneo de Davao University",
+        "alpha_two_code": "PH",
+        "state-province": "Davao del Sur",
+        "domains": [
+            "addu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.addu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Ateneo de Manila University",
+        "alpha_two_code": "PH",
+        "state-province": null,
+        "domains": [
+            "admu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.admu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Ateneo de Naga University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "adnu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.adnu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Ateneo de Zamboanga University",
+        "alpha_two_code": "PH",
+        "state-province": "Zamboanga del Sur",
+        "domains": [
+            "adzu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.adzu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Aquinas University",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol",
+        "domains": [
+            "aquinas-university.edu"
+        ],
+        "web_pages": [
+            "http://www.aquinas-university.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "De La Salle University, Araneta",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "araneta.dlsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.araneta.dlsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Arellano University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "arellano.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.arellano.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Angeles University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "auf.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.auf.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Adventist University of the Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "aup.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.aup.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Araullo University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "aupen.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.aupen.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Bicol University",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol",
+        "domains": [
+            "bicol-u.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.bicol-u.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Benguet State University",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "bsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.bsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Bulacan State University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "bulsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.bulsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Centro Escolar University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "ceu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ceu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Central Mindanao University",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "cmu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.cmu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Central Philippine University",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "cpuic.edu"
+        ],
+        "web_pages": [
+            "http://www.cpuic.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Cagayan State University",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "csu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.csu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Capitol University",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "cu-cdo.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.cu-cdo.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Davao Doctors College",
+        "alpha_two_code": "PH",
+        "state-province": "Davao del Sur",
+        "domains": [
+            "davaodoctors.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.davaodoctors.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "De La Salle University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "dlsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.dlsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Don Mariano Marcos Memorial State University",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "dmmmsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.dmmmsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Divine Word College of Legazpi",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol",
+        "domains": [
+            "dwc-legazpi.edu"
+        ],
+        "web_pages": [
+            "http://www.dwc-legazpi.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Our Lady of Fatima University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "fatima.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.fatima.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Feati University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "featiu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.featiu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Far Eastern University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "feu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.feu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Foundation University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "foundationu.com"
+        ],
+        "web_pages": [
+            "http://www.foundationu.com/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Holy Angel University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "hau.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.hau.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "College of the Holy Spirit",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "holyspirit.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.holyspirit.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Information and Communications Technology Academy",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "iacademy.ph"
+        ],
+        "web_pages": [
+            "http://www.iacademy.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Isabela State University",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "isu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.isu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Irish University Business School, Cebu",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "iubs.co.uk"
+        ],
+        "web_pages": [
+            "http://www.iubs.co.uk/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Liceo de Cagayan University",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "ldcu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ldcu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Colegio de San Juan de Letran",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "letran.edu"
+        ],
+        "web_pages": [
+            "http://www.letran.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Leyte Normal University",
+        "alpha_two_code": "PH",
+        "state-province": "Eastern Visayas",
+        "domains": [
+            "lnu.evis.net.ph"
+        ],
+        "web_pages": [
+            "http://lnu.evis.net.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Lyceum of the Philippines University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "lpu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.lpu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Leyte State University",
+        "alpha_two_code": "PH",
+        "state-province": "Eastern Visayas",
+        "domains": [
+            "lsu-visca.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.lsu-visca.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Manila Central University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "mcu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mcu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Manuel L. Quezon University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "mlqu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mlqu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Mariano Marcos State University",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "mmsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mmsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Manuel S. Enverga University Foundation",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "mseuf.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mseuf.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Mindanao State University - Iligan Institute of Technology",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "msuiit.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.msuiit.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Mindanao State University",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "msumain.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.msumain.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Misamis University",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "mu.fapenet.org"
+        ],
+        "web_pages": [
+            "http://www.mu.fapenet.org/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Mountain View College",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "mvc.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mvc.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Notre Dame of Marbel University",
+        "alpha_two_code": "PH",
+        "state-province": "Soccsksargen",
+        "domains": [
+            "ndmu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ndmu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Notre Dame University",
+        "alpha_two_code": "PH",
+        "state-province": "Bangsamoro",
+        "domains": [
+            "ndu.fapenet.org"
+        ],
+        "web_pages": [
+            "http://www.ndu.fapenet.org/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "New Era University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "neu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.neu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "National University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "nu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.nu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Northwestern University of the Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "nulaoag.com"
+        ],
+        "web_pages": [
+            "http://www.nulaoag.com/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Philippine Christian University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "pcu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.pcu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Perpetual Help, System Dalta",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "perpetualdalta.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.perpetualdalta.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the City of Manila",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "plm.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.plm.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Philippine Military Academy",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "pma.ph"
+        ],
+        "web_pages": [
+            "http://www.pma.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Philippine Normal University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "pnumanila.com.ph"
+        ],
+        "web_pages": [
+            "http://www.pnumanila.com.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Pangasinan State University",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "psu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.psu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Palawan State University",
+        "alpha_two_code": "PH",
+        "state-province": "Mimaropa",
+        "domains": [
+            "psu.palawan.edu.ph",
+            "psu-online.edu.ph"
+        ],
+        "web_pages": [
+            "http://psu.palawan.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Polytechnic University of the Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "pup.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.pup.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Philippine Women's University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "pwu.edu"
+        ],
+        "web_pages": [
+            "http://www.pwu.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Rizal Technological University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "rtu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.rtu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "San Beda College",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "sanbeda.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.sanbeda.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Saint Louis College",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "slc-sflu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.slc-sflu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Saint Louis University",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "slu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.slu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Saint Mary's University",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "smu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.smu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Saint Paul University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "spu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.spu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Samar State University",
+        "alpha_two_code": "PH",
+        "state-province": "Eastern Visayas",
+        "domains": [
+            "ssu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ssu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Silliman University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "su.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.su.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Southwestern University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "swu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.swu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Technological University of the Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "tup.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.tup.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Assumption",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "ua.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ua.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Asia and the Pacific",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "uap.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uap.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Baguio",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "ubaguio.edu"
+        ],
+        "web_pages": [
+            "http://www.ubaguio.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Batangas",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "ub.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ub.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Cordilleras",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "uc-bcf.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uc-bcf.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Cagayan Valley",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "ucv.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ucv.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the East, Coloocan",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "ue.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ue.edu.ph/caloocan/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the East, Manila",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "ue.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ue.edu.ph/manila/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Eastern Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Eastern Visayas",
+        "domains": [
+            "uep.educ.ph"
+        ],
+        "web_pages": [
+            "http://www.uep.educ.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the East, Ramon Magsaysay Memorial Medical Center",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "uerm.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uerm.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Immaculate Conception",
+        "alpha_two_code": "PH",
+        "state-province": "Davao",
+        "domains": [
+            "uic.globe.com.ph"
+        ],
+        "web_pages": [
+            "http://uic.globe.com.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of lloilo",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "ui.phinma.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ui.phinma.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Mindanao",
+        "alpha_two_code": "PH",
+        "state-province": "Davao",
+        "domains": [
+            "umindanao.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.umindanao.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Nueva Caceres",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol",
+        "domains": [
+            "unc.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.unc.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Northeastern Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol Region",
+        "domains": [
+            "unep.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.unep.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Bohol",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "universityofbohol.com"
+        ],
+        "web_pages": [
+            "http://www.universityofbohol.com/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Cebu",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "universityofcebu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.universityofcebu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Manila",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "univman.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.univman.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Negros Occidental-Recoletos",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "uno-r.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uno-r.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Northern Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "unp.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.unp.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Pangasinan",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "upang.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upang.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Baguio",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "upb.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upb.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Diliman",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "upd.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upd.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Visayas - Cebu High School",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "uphighschoolcebu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uphighschoolcebu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Perpetual Help",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "uphr.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uphr.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Los Banos",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "uplb.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uplb.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Manila",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "upm.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upm.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Mindanao",
+        "alpha_two_code": "PH",
+        "state-province": "Davao",
+        "domains": [
+            "upmin.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upmin.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Open University",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "upou.org"
+        ],
+        "web_pages": [
+            "http://www.upou.org/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Visayas",
+        "alpha_two_code": "PH",
+        "state-province": null,
+        "domains": [
+            "upv.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upv.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Regina Carmeli",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "urc.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.urc.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of San Agustin",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "usa.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usa.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of San Carlos",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "usc.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usc.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Southeastern Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Davao",
+        "domains": [
+            "usep.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usep.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of San Jose Recoletos",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "usjr.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usjr.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Saint La Salle",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "usls.edu"
+        ],
+        "web_pages": [
+            "http://www.usls.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Southern Mindanao",
+        "alpha_two_code": "PH",
+        "state-province": "Soccsksargen",
+        "domains": [
+            "usm.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usm.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Southern Philippines Foundation",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "usp.ph"
+        ],
+        "web_pages": [
+            "http://www.usp.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Santo Tomas",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "ust.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ust.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Visayas",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "uv.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uv.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Virgen Milagrosa University Foundation",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "vmuf.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.vmuf.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Wesleyan University Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "wesleyan.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.wesleyan.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Western Mindanao State University",
+        "alpha_two_code": "PH",
+        "state-province": "Zamboanga Peninsula",
+        "domains": [
+            "wmsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.wmsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "West Visayas State University",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "wvsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.wvsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Central Luzon State University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "www2.mozcom.com"
+        ],
+        "web_pages": [
+            "http://www2.mozcom.com/~clsu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Tarlac State University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "www2.mozcom.com"
+        ],
+        "web_pages": [
+            "http://www2.mozcom.com/~tsu-ics/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Xavier University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "xu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.xu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Adamson University",
+        "alpha_two_code": "PH",
+        "state-province": null,
+        "domains": [
+            "adamson.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.adamson.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Ateneo de Davao University",
+        "alpha_two_code": "PH",
+        "state-province": "Davao del Sur",
+        "domains": [
+            "addu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.addu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Ateneo de Manila University",
+        "alpha_two_code": "PH",
+        "state-province": null,
+        "domains": [
+            "admu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.admu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Ateneo de Naga University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "adnu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.adnu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Ateneo de Zamboanga University",
+        "alpha_two_code": "PH",
+        "state-province": "Zamboanga del Sur",
+        "domains": [
+            "adzu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.adzu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Aquinas University",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol",
+        "domains": [
+            "aquinas-university.edu"
+        ],
+        "web_pages": [
+            "http://www.aquinas-university.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "De La Salle University, Araneta",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "araneta.dlsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.araneta.dlsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Arellano University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "arellano.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.arellano.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Angeles University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "auf.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.auf.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Adventist University of the Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "aup.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.aup.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Araullo University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "aupen.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.aupen.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Bicol University",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol",
+        "domains": [
+            "bicol-u.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.bicol-u.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Benguet State University",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "bsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.bsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Bulacan State University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "bulsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.bulsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Centro Escolar University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "ceu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ceu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Central Mindanao University",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "cmu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.cmu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Central Philippine University",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "cpuic.edu"
+        ],
+        "web_pages": [
+            "http://www.cpuic.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Cagayan State University",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "csu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.csu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Capitol University",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "cu-cdo.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.cu-cdo.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Davao Doctors College",
+        "alpha_two_code": "PH",
+        "state-province": "Davao del Sur",
+        "domains": [
+            "davaodoctors.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.davaodoctors.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "De La Salle University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "dlsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.dlsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Don Mariano Marcos Memorial State University",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "dmmmsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.dmmmsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Divine Word College of Legazpi",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol",
+        "domains": [
+            "dwc-legazpi.edu"
+        ],
+        "web_pages": [
+            "http://www.dwc-legazpi.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Our Lady of Fatima University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "fatima.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.fatima.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Feati University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "featiu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.featiu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Far Eastern University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "feu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.feu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Foundation University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "foundationu.com"
+        ],
+        "web_pages": [
+            "http://www.foundationu.com/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Holy Angel University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "hau.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.hau.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "College of the Holy Spirit",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "holyspirit.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.holyspirit.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Information and Communications Technology Academy",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "iacademy.ph"
+        ],
+        "web_pages": [
+            "http://www.iacademy.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Isabela State University",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "isu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.isu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Irish University Business School, Cebu",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "iubs.co.uk"
+        ],
+        "web_pages": [
+            "http://www.iubs.co.uk/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Liceo de Cagayan University",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "ldcu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ldcu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Colegio de San Juan de Letran",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "letran.edu"
+        ],
+        "web_pages": [
+            "http://www.letran.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Leyte Normal University",
+        "alpha_two_code": "PH",
+        "state-province": "Eastern Visayas",
+        "domains": [
+            "lnu.evis.net.ph"
+        ],
+        "web_pages": [
+            "http://lnu.evis.net.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Lyceum of the Philippines University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "lpu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.lpu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Leyte State University",
+        "alpha_two_code": "PH",
+        "state-province": "Eastern Visayas",
+        "domains": [
+            "lsu-visca.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.lsu-visca.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Manila Central University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "mcu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mcu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Manuel L. Quezon University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "mlqu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mlqu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Mariano Marcos State University",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "mmsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mmsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Manuel S. Enverga University Foundation",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "mseuf.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mseuf.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Mindanao State University - Iligan Institute of Technology",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "msuiit.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.msuiit.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Mindanao State University",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "msumain.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.msumain.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Misamis University",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "mu.fapenet.org"
+        ],
+        "web_pages": [
+            "http://www.mu.fapenet.org/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Mountain View College",
+        "alpha_two_code": "PH",
+        "state-province": "Northern Mindanao",
+        "domains": [
+            "mvc.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.mvc.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Notre Dame of Marbel University",
+        "alpha_two_code": "PH",
+        "state-province": "Soccsksargen",
+        "domains": [
+            "ndmu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ndmu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Notre Dame University",
+        "alpha_two_code": "PH",
+        "state-province": "Bangsamoro",
+        "domains": [
+            "ndu.fapenet.org"
+        ],
+        "web_pages": [
+            "http://www.ndu.fapenet.org/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "New Era University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "neu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.neu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "National University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "nu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.nu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Northwestern University of the Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "nulaoag.com"
+        ],
+        "web_pages": [
+            "http://www.nulaoag.com/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Philippine Christian University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "pcu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.pcu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Perpetual Help, System Dalta",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "perpetualdalta.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.perpetualdalta.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the City of Manila",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "plm.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.plm.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Philippine Military Academy",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "pma.ph"
+        ],
+        "web_pages": [
+            "http://www.pma.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Philippine Normal University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "pnumanila.com.ph"
+        ],
+        "web_pages": [
+            "http://www.pnumanila.com.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Pangasinan State University",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "psu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.psu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Palawan State University",
+        "alpha_two_code": "PH",
+        "state-province": "Mimaropa",
+        "domains": [
+            "psu.palawan.edu.ph",
+            "psu-online.edu.ph"
+        ],
+        "web_pages": [
+            "http://psu.palawan.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Polytechnic University of the Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "pup.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.pup.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Philippine Women's University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "pwu.edu"
+        ],
+        "web_pages": [
+            "http://www.pwu.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Rizal Technological University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "rtu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.rtu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "San Beda College",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "sanbeda.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.sanbeda.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Saint Louis College",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "slc-sflu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.slc-sflu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Saint Louis University",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "slu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.slu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Saint Mary's University",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "smu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.smu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Saint Paul University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "spu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.spu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Samar State University",
+        "alpha_two_code": "PH",
+        "state-province": "Eastern Visayas",
+        "domains": [
+            "ssu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ssu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Silliman University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "su.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.su.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Southwestern University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "swu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.swu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Technological University of the Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "tup.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.tup.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Assumption",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "ua.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ua.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Asia and the Pacific",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "uap.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uap.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Baguio",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "ubaguio.edu"
+        ],
+        "web_pages": [
+            "http://www.ubaguio.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Batangas",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "ub.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ub.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Cordilleras",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "uc-bcf.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uc-bcf.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Cagayan Valley",
+        "alpha_two_code": "PH",
+        "state-province": "Cagayan Valley",
+        "domains": [
+            "ucv.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ucv.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the East, Coloocan",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "ue.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ue.edu.ph/caloocan/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the East, Manila",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "ue.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ue.edu.ph/manila/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Eastern Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Eastern Visayas",
+        "domains": [
+            "uep.educ.ph"
+        ],
+        "web_pages": [
+            "http://www.uep.educ.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the East, Ramon Magsaysay Memorial Medical Center",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "uerm.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uerm.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Immaculate Conception",
+        "alpha_two_code": "PH",
+        "state-province": "Davao",
+        "domains": [
+            "uic.globe.com.ph"
+        ],
+        "web_pages": [
+            "http://uic.globe.com.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of lloilo",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "ui.phinma.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ui.phinma.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Mindanao",
+        "alpha_two_code": "PH",
+        "state-province": "Davao",
+        "domains": [
+            "umindanao.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.umindanao.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Nueva Caceres",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol",
+        "domains": [
+            "unc.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.unc.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Northeastern Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Bicol Region",
+        "domains": [
+            "unep.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.unep.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Bohol",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "universityofbohol.com"
+        ],
+        "web_pages": [
+            "http://www.universityofbohol.com/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Cebu",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "universityofcebu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.universityofcebu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Manila",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "univman.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.univman.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Negros Occidental-Recoletos",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "uno-r.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uno-r.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Northern Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "unp.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.unp.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Pangasinan",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "upang.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upang.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Baguio",
+        "alpha_two_code": "PH",
+        "state-province": "Cordillera Administrative Region",
+        "domains": [
+            "upb.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upb.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Diliman",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "upd.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upd.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Visayas - Cebu High School",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "uphighschoolcebu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uphighschoolcebu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Perpetual Help",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "uphr.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uphr.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Los Banos",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "uplb.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uplb.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Manila",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "upm.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upm.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Mindanao",
+        "alpha_two_code": "PH",
+        "state-province": "Davao",
+        "domains": [
+            "upmin.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upmin.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Open University",
+        "alpha_two_code": "PH",
+        "state-province": "Calabarzon",
+        "domains": [
+            "upou.org"
+        ],
+        "web_pages": [
+            "http://www.upou.org/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Philippines Visayas",
+        "alpha_two_code": "PH",
+        "state-province": null,
+        "domains": [
+            "upv.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.upv.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Regina Carmeli",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "urc.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.urc.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of San Agustin",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "usa.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usa.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of San Carlos",
+        "alpha_two_code": "PH",
+        "state-province": "Ilocos",
+        "domains": [
+            "usc.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usc.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Southeastern Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Davao",
+        "domains": [
+            "usep.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usep.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of San Jose Recoletos",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "usjr.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usjr.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Saint La Salle",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "usls.edu"
+        ],
+        "web_pages": [
+            "http://www.usls.edu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Southern Mindanao",
+        "alpha_two_code": "PH",
+        "state-province": "Soccsksargen",
+        "domains": [
+            "usm.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.usm.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Southern Philippines Foundation",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "usp.ph"
+        ],
+        "web_pages": [
+            "http://www.usp.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of Santo Tomas",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "ust.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.ust.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "University of the Visayas",
+        "alpha_two_code": "PH",
+        "state-province": "Central Visayas",
+        "domains": [
+            "uv.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.uv.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Virgen Milagrosa University Foundation",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "vmuf.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.vmuf.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Wesleyan University Philippines",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "wesleyan.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.wesleyan.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Western Mindanao State University",
+        "alpha_two_code": "PH",
+        "state-province": "Zamboanga Peninsula",
+        "domains": [
+            "wmsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.wmsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "West Visayas State University",
+        "alpha_two_code": "PH",
+        "state-province": "Western Visayas",
+        "domains": [
+            "wvsu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.wvsu.edu.ph/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Central Luzon State University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "www2.mozcom.com"
+        ],
+        "web_pages": [
+            "http://www2.mozcom.com/~clsu/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Tarlac State University",
+        "alpha_two_code": "PH",
+        "state-province": "Central Luzon",
+        "domains": [
+            "www2.mozcom.com"
+        ],
+        "web_pages": [
+            "http://www2.mozcom.com/~tsu-ics/"
+        ],
+        "country": "Philippines"
+    },
+    {
+        "name": "Xavier University",
+        "alpha_two_code": "PH",
+        "state-province": "National Capital Region",
+        "domains": [
+            "xu.edu.ph"
+        ],
+        "web_pages": [
+            "http://www.xu.edu.ph/"
+        ],
+        "country": "Philippines"
+    }
+]

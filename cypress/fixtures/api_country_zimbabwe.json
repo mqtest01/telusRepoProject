@@ -1,0 +1,362 @@
+[
+    {
+        "name": "Africa University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "africau.edu"
+        ],
+        "web_pages": [
+            "http://www.africau.edu/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Bindura University of Science Education",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "buse.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.buse.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Chinhoyi University of Technology",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "cut.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.cut.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Catholic University in Zimbabwe",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "cuz.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.cuz.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Great Zimbabwe University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "gzu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.gzu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Harare Institute of Technology",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "hit.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.hit.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Lupane State University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "lsu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.lsu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Midlands State University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "msu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.msu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "National University of Science and Technology Bulawayo",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "nust.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.nust.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Reformed Church University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "rcu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.rcu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Solusi University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "solusi.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.solusi.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "University of Zimbabwe",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "uz.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.uz.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Women's University in Africa",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "wua.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.wua.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Zimbabwe Ezekiel Guti University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "zegu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.zegu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Zimbabwe Open University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "zou.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.zou.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Africa University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "africau.edu"
+        ],
+        "web_pages": [
+            "http://www.africau.edu/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Bindura University of Science Education",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "buse.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.buse.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Chinhoyi University of Technology",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "cut.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.cut.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Catholic University in Zimbabwe",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "cuz.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.cuz.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Great Zimbabwe University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "gzu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.gzu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Harare Institute of Technology",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "hit.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.hit.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Lupane State University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "lsu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.lsu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Midlands State University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "msu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.msu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "National University of Science and Technology Bulawayo",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "nust.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.nust.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Reformed Church University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "rcu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.rcu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Solusi University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "solusi.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.solusi.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "University of Zimbabwe",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "uz.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.uz.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Women's University in Africa",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "wua.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.wua.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Zimbabwe Ezekiel Guti University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "zegu.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.zegu.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    },
+    {
+        "name": "Zimbabwe Open University",
+        "alpha_two_code": "ZW",
+        "state-province": null,
+        "domains": [
+            "zou.ac.zw"
+        ],
+        "web_pages": [
+            "http://www.zou.ac.zw/"
+        ],
+        "country": "Zimbabwe"
+    }
+]

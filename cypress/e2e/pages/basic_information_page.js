@@ -13,9 +13,7 @@ export class BasicInformationPage {
     contact_info_save_btn = 'Save'
     contact_info_cancel_btn = 'Cancel'
     contact_remove_focus_label = 'Contact Info'
-    // contact_sum_fullname  = '.pb-2 > .col > .sui-text-b3'
     contact_sum_email = '.pb-3 > .col-auto > .sui-text-b3'
-    // contact_sum_fullphonenumber = '.mb-7 > .col > .sui-text-b3'
     exclamation_error = '.sui-flex > .sui-absolute'
     input_error = '.sui-c-input-error'
     drpdwn_invalid_entry_error = 'No options'
@@ -30,13 +28,6 @@ export class BasicInformationPage {
     success_message1 = 'Success'
     success_message2 = 'Loation succesfully saved!'
     success_image = '.Toastify__toast-body > .sui-flex > :nth-child(1)'
-
-    // location_sum_address =':nth-child(1) > .col-auto > .sui-text-b3'
-    // location_sum_city_state = ':nth-child(2) > .col-auto > .sui-text-b3'
-    // location_sum_postal_Code = '.col-lg-12 > :nth-child(3) > .col-auto > .sui-text-b3'
-    // location_sum_country = ':nth-child(4) > .col-auto > .sui-text-b3'
-    // location_sum_timezone = '.row-timezone > .col-auto > .sui-text-b3'
-
     
     
     //Contact Info 
@@ -115,17 +106,11 @@ export class BasicInformationPage {
     }
 
     checkContactSummaryInfo(fullname, emailaddress, fullphonenumber){
-        
-        // cy.get(this.contact_sum_fullname)
-        //  .should('have.text', fullname)
 
         cy.contains(fullname)
 
         cy.get(this.contact_sum_email)
           .should('have.text', emailaddress)
-
-        // cy.get(this.contact_sum_fullphonenumber)
-        //  .should('have.text', fullphonenumber)
 
         cy.contains(fullphonenumber)
 
@@ -156,14 +141,34 @@ export class BasicInformationPage {
     updateCityState(city, citystate){
         cy.get(this.location_city_state_txt)
          .click('bottom')
+         .wait(2000)
          .clear()
+         .wait(5000)
          .type(city)
-         .should('be.visible')      
+         .wait(15000)   
 
-        cy.wait(5000)
         cy.contains(citystate)
          .click()
-        // cy.wait(5000)
+         .wait(10000)
+
+    
+        cy.get('.userprofile-page').find(this.location_city_state_txt).invoke('val').as('name')
+
+        cy.get('@name').then((name) => {
+            if (name != citystate){
+                cy.get(this.location_city_state_txt)
+                 .click('bottom')
+                 .clear()
+                 .wait(5000)
+                 .type(city)
+                 .wait(15000) 
+
+                 cy.contains(citystate)
+                 .click()
+                 .wait(10000)
+            }
+        })
+
     }
 
     updateCityOnly(city){
@@ -213,7 +218,7 @@ export class BasicInformationPage {
 
     clickOnLanguagesLink(){
         cy.contains('Languages')
-         .click()
+         .click(3000)
     }
 
 
@@ -231,8 +236,6 @@ export class BasicInformationPage {
         cy.contains(error)
         cy.get(this.input_error)
          .should('be.visible')
-        // cy.get(this.exclamation_error)
-        //  .should('be.visible')
     }
 
     checkErrorMessageNotVisible(error){
@@ -244,10 +247,6 @@ export class BasicInformationPage {
          .should('not.exist')
     }
 
-    // checkErrorNoOption(){
-    //     cy.contains(this.drpdwn_invalid_entry_error)
-    //     //  .should('be.visible')
-    // }
 
     checkErrorMessageWithoutExclamiation(error){
         cy.contains(error)

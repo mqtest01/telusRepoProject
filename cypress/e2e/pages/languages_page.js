@@ -5,9 +5,6 @@ export class LanguagesPage{
     secondary_edit_btn = ':nth-child(1) > :nth-child(1) > :nth-child(2) > .col-lg-12 > .wrapper-update-section > .edit-div'
     multientry_delete_btn = ':nth-child(1) > :nth-child(1) > :nth-child(2) > .col-lg-12 > .wrapper-update-section > .trash-div > .svg-inline--fa > path'
     singleentry_delete_btn = 'svg[data-icon="tash-alt"]'
-    // singleentry_delete_btn = '.trash-div'
-    //:nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value')
-    //primary_language_txt = ':nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value'
     primary_language_txt = ':nth-child(1) > .sc-dlnjwi > .row > .col-lg-12 > .sui-c-input-dropdown-container > .sui-c-input-dropdown__control > .sui-c-input-dropdown__value-container > .sui-c-input-dropdown__single-value'
     primary_prof_level = '.figma-input-field-margin > .sc-dlnjwi > .row > .col-lg-12'
     primary_language_save_btn = 'Save'
@@ -34,15 +31,9 @@ export class LanguagesPage{
         cy.get(this.primary_language_txt)
          .click()
          .type(primary+'{enter}')
-        //  .type('{enter}')
         cy.wait(3000)
 
     }
-
-    // checkPrimaryProfLevel(){
-    //     cy.('input[name="react-select-5-input"]')
-    //      .should('have.attr', 'disabled')
-    // }
 
     clickPrimarySaveBtn(proflevel){
         cy.contains(this.primary_language_save_btn)
@@ -67,7 +58,6 @@ export class LanguagesPage{
          .click(3000)
          .type(secondary)
          .type('{enter}')
-        // cy.wait(3000)
     }
 
     updateSecondaryProfiencyLevel(secondaryproflevel){
@@ -75,7 +65,6 @@ export class LanguagesPage{
          .click(3000)
          .type(secondaryproflevel)
          .type('{enter}')
-        // cy.wait(3000)
     }
 
     updateTertiaryLanguage(tertiary){
@@ -129,14 +118,8 @@ export class LanguagesPage{
 
     clickOnDeleteBtn(){
         cy.get(this.multientry_delete_btn)
-        //  .click({multiple:true})
          .click({force:true})
     }
-
-    // clickOnDeleteBtnWitSingleEntry(){
-    //     cy.get(this.singleentry_delete_btn)
-    //      .click({force:true})
-    // }
 
     checkDeleteConfirmMessage(message){
         cy.contains(message)

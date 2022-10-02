@@ -1,5 +1,6 @@
 /// <reference types="cypress"/>
 
+
 import { LoginPage } from "../pages/login_page"
 import { DashboardPage } from "../pages/dashboard_page"
 import { BasicInformationPage } from "../pages/basic_information_page"
@@ -14,6 +15,12 @@ describe('Check basic information and language pages can be updated', function()
    
   beforeEach(function () {
     cy.visit('cmp/')
+
+    // Cypress.on('uncaught:exception', (err, runnable) => {
+    //   if (promise) {
+    //     return false
+    //   }
+    // });
   })
 
   it('Check if User is able to succesfully update basic information and language pages using valid inputs', function(){
@@ -72,8 +79,15 @@ describe('Check basic information and language pages can be updated', function()
       basicInformationPage.updateStreetAdress(validData.basicinfo_street_adr)
       basicInformationPage.removeLocationFocusByClickingLabel()
       basicInformationPage.updateCityState(validData.basicinfo_city, validData.basicinfo_city_state)
+
+
+
       basicInformationPage.removeLocationFocusByClickingLabel()
       cy.wait(3000)
+
+      //Special Note: there seems to be a performance issue here where network error is being encountered during the end to end run.
+      //Data validator has been placed to ensure continuity
+
       basicInformationPage.removeLocationFocusByClickingLabel()
       basicInformationPage.updatePostalCode(validData.basicinfo_postal_code)
       basicInformationPage.removeLocationFocusByClickingLabel()
@@ -370,6 +384,8 @@ describe('Check basic information and language pages can be updated', function()
       //save changes
       basicInformationPage.clickContactSaveBtn()
 
+ 
+
       //Check Contact Info Summary
       const fullName = `${origData.basicinfo_first_name} ${origData.basicinfo_middle_name} ${origData.basicinfo_last_name}`
       const fullPhoneNumber = `${origData.basicinfo_area_code}${origData.basicinfo_phone_number}`
@@ -394,13 +410,21 @@ describe('Check basic information and language pages can be updated', function()
       //check if success pop-up has shown
       basicInformationPage.checkSuccessfulPopup
 
+
       //check location summary
       basicInformationPage.checkLocationSummaryInfo(origData.basicinfo_street_adr, 
         origData.basicinfo_summary_city_state, origData.basicinfo_postal_code,
         origData.basicinfo_country, origData.basicinfo_timezone)
 
       //Special note: A bug was found the city state format is not the same from the selected one versus the one that is shown in the Location summary.
-      
+
+      //extra line to ensure continuity
+      cy.wait(3000)
+      basicInformationPage.clickLocEditBtn()
+      cy.wait(3000)
+      basicInformationPage.updatePostalCode("1610")
+      basicInformationPage.removeLocationFocusByClickingLabel()
+      basicInformationPage.clickLocationSaveBtn()
 
       //Update languages
       basicInformationPage.clickOnLanguagesLink()
